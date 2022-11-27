@@ -29,8 +29,8 @@ public class Constants {
 
     public static final String BLEEPER_API_URL = "https://data.smartdublin.ie/bleeperbike-api/free_bike_status/";
 
-    public static final String AWS_ACCESS_KEY = "AKIAZNS5DHNSNI6775KH";
-    public static final String AWS_SECRET_ACCESS_KEY = "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";
+    public static final String AWS_ACCESS_KEY = "";
+    public static final String AWS_SECRET_ACCESS_KEY = "";
     public static final String AWS_REGION = "eu-west-1";
     public static final String AWS_ENDPOINT = "dynamodb.eu-west-1.amazonaws.com";
 

@@ -64,17 +64,6 @@ public class DBController {
         putDatasetInDB(csvHandler.getGPSData(), Constants.RAW_GPS_TABLE);
     }
 
-    public void getProcessedData() {
-        Table table = Table.loadTable(dbClient, Constants.PROCESSED_DATA_TABLE);
-
-        if (checkTableExists(Constants.PROCESSED_DATA_TABLE)) {
-
-        }
-        else {
-            System.out.println("Accelerometer table not found.");
-        }
-    }
-
     public void getAccelerometerData() {
         Table table = Table.loadTable(dbClient, Constants.PROCESSED_DATA_TABLE);
 
